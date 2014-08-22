@@ -1,0 +1,11 @@
+{
+  "name": "Strider CD",
+  "description": "Strider is an Open Source Continuous Deployment / Continuous Integration platform.",
+  "addons": [
+    "mongolab:sandbox",
+    "mailgun:starter"
+  ],
+  "scripts": {
+    "postdeploy": "bin/strider addUser -a -l admin@example.com -p admin"
+  }
+}
