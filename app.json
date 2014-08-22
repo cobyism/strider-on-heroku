@@ -5,6 +5,18 @@
     "mongolab:sandbox",
     "mailgun:starter"
   ],
+  "env": {
+    "SERVER_NAME": {
+      "description": "URL where Strider will be accessible on the Internet. (note: no trailing slash)",
+      "value": "http://YOURAPPNAME.herokuapp.com"
+    },
+    "PLUGIN_GITHUB_APP_ID": {
+      "description": "GitHub OAuth Application Client ID (Create one at: https://github.com/settings/applications/new)"
+    },
+    "PLUGIN_GITHUB_APP_SECRET": {
+      "description": "GitHub OAuth Application Client Secret"
+    }
+  },
   "scripts": {
     "postdeploy": "bin/strider addUser -a -l admin@example.com -p admin"
   }
