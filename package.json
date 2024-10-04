@@ -10,7 +10,7 @@
     "connect-mongo": "~0.3.3",
     "connect-slashes": "0.0.11",
     "consolidate": "0.8.0",
-    "cookie": "0.0.5",
+    "cookie": "0.7.0",
     "cors": "~2.1.0",
     "eventemitter2": "0.4.13",
     "everypaas": "0.0.x",
